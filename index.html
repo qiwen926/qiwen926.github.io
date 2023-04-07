@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Photographer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--This image is a personal photograph taken by myself-->
+    <link rel="icon" href="./img/image.JPG">
+    <link rel="stylesheet" href="./style.css">
+	<script src="js/jquery.min.1.7.js"></script>
+	<script defer src="js/action.js"></script>
+</head>
+<body>
+	
+    <!--The header of the website-->
+    <header id ="head">
+		<section id="top">
+			<img src="img/top.webp" alt="Top_pic">
+			<h3>I'm Qiwen, a travel photographer</h3>
+		</section>
+        <h1>Claire's Travel Photography</h1>
+        <nav id="catenav">
+            <a class="selected" href="index.html">Home</a>
+            <!-- <a href="./Article/personalintroduction.html">Personal introduction</a> -->
+            <a href="./Article/photographicworks.html">Photographic works</a>
+            <a href="./article/photographyprojects.html">Photography projects</a>
+        </nav>
+    </header>
+
+    <!--The main of the website-->
+    <main id="main">
+
+        <!--Menu list of the website-->
+        <section id="Section">
+            <h2>Menu:</h2>
+            <ol id="Menu">
+                <li><a href="#Opening">Opening</a></li>
+                <li><a href="#Video">Dynamic and static</a></li>
+                <li><a href="#Volger">My favourite volger</a></li>
+                <li><a href="#Welcome">Contact with me now</a></li>
+            </ol>
+        </section>
+
+        <!--Main content for website-->
+        <section id="Mean">
+            <h2>My Philosophy and Contents</h2>
+            <section id="Opening">
+                <!--the image is from https://ca.hotels.com/go/iceland-->
+                <h3>Landscapes in the world</h3>
+                <!-- <img src="img/top.webp" alt="Top_pic"> -->
+                <p>I have always believed in the power of landscape. If you are in a bad mood, stressed from work and your eyes and body feel tired, you will feel much better if you go to even the nearest natural landscape around you, such as the forest and the sea. I personally love the snow and the sea, and the snowbound and the seaside are two places that have a very high rate to get a great photo.</p>
+            </section>
+        
+           <section id="media">
+			   <section id="Video">
+			       <!--the video is a personal video taken by myself -->
+			       <h3>Dynamic and static</h3>
+			       <video controls  src="video/video.MOV"></video>
+			           <p>I believe that both static beauty and dynamic beauty are essential, whether the subject is a person or a landscape, so my travel photography will provide you with two forms of deliverables, a carefully shot video and a set of carefully composed and retouched photographs.</p>
+			   </section>
+			   
+			   <section id="Volger">
+			       <!--the video is from https://www.youtube.com/embed/7XjlyGD-wOw -->
+			       <h3>My favourite volger</h3>
+			       <iframe width="560" height="315" src="https://www.youtube.com/embed/7XjlyGD-wOw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			       <p>I fell in love with travel photography after watching this video blogger's videos, it's very romantic and fulfilling to be able to take pictures and video people in beautiful natural landscapes.</p>
+			       
+			   </section>
+		   </section>
+
+            <section id="Welcome">
+                <!--the audio is a personal audio taken by myself-->
+                <h3>Contact With Me Now</h3>
+				<form id="form" action="">
+					<!-- <h2>Customer Information</h2> -->
+					<p><span>Name</span> <input id="name" type="text"></p>
+					<p><span>Age</span> <input id="age" type="number"></p>
+					<p><span>Email</span>  <input id="email" type="text"></p>
+					<p><span>Message</span>
+						<textarea id="messge" name="" id="" cols="30" rows="10"></textarea>
+					</p>
+					<p><span></span><input type="submit" value="submit"></p>
+				</form>
+                <audio controls width="200" height="100" src="./audio/Welcome.m4a"></audio>
+                <p>Projects we have</p>
+                <table border="1">
+                    <tr>
+                        <th>Personal Photographs</th>
+                        <th>Travel photography</th>
+                        <th>Wedding photography</th>
+                    </tr>
+                    <tr>
+                        <td>$200 per hour</td>
+                        <td>$3000 per day</td>
+                        <td>$5200 for whole wedding</td>
+                    </tr>
+                </table>
+                <h4>My email:</h4><a href="mailto:qw458103@dal.ca">Claire</a>
+            </section>
+
+            <!--About content for website-->
+            <section id="about">
+                <h2>About this website:</h2>
+                <p>I built this site to seek empathy from people who love landscapes and photography as much as I do, so if you have a need to take great photos but don't know what to do yet, feel free to come to me and we can have an in-depth conversation about it!</p>
+                <p>I've always thought it would be really cool to work for what I love and I have a favourite wedding photography site that is <a href="https://www.victoria-photography.co.uk/destination-weddings/"> victoria-photography</a>, I think has soul in their photos.</p>
+                <p>I will also go further and further along the path of experience in filming, to follow the steps of my favourite volger and others who have do it before me, in order to reach my ambition of supporting myself with my hobby sooner.</p>
+            </section>
+
+        </section>
+    </main>
+
+    <!--The footer of the website-->
+    <footer id="footer">
+        <p>2023, Qiwen Luo, qw458103@dal.ca</p>
+    </footer>
+	<section id="tools">
+		<span id="color1">color1</span>
+		<span id="color2">color2</span>
+		<span id="color3">color3</span>
+	</section>
+</body>
+</html>
